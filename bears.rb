@@ -20,5 +20,4 @@ class Bears
   end
 
 
-
 end
