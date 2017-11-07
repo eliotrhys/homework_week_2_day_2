@@ -15,4 +15,8 @@ class River
     @fishno << newfish
   end
 
+  def remove_fish
+    @fishno.pop
+  end
+
 end
