@@ -15,8 +15,9 @@ class Bears
     return sound
   end
 
-  def take_fish(fish_name)
-    @stomach << fish_name
+  def take_fish(river)
+    value = river.fishno.pop
+    @stomach << value
   end
 
 

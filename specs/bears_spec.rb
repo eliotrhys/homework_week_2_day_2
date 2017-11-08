@@ -26,8 +26,8 @@ class TestBears < MiniTest::Test
   def test_take_fish
     @amazon.add_fish(@nemo)
     @amazon.add_fish(@marlin)
-    take_fish(@nemo)
-    @amazon.remove_fish
+    @yogi.take_fish(@amazon)
+    # @amazon.remove_fish
     assert_equal(@yogi.food_count, 1)
     assert_equal(@amazon.fish_count, 1)
   end

@@ -1,6 +1,6 @@
 class River
 
-  attr_accessor :name
+  attr_accessor :name, :fishno
 
   def initialize(name)
     @name = name
